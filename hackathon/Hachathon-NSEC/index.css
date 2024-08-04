@@ -1,0 +1,228 @@
+*{
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: rgb(255, 252, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 1;
+}
+#logo{
+    margin: 25px ;
+    padding: 25px;
+    display: inline;
+    background-color: aqua;
+}
+#in{
+    height: 20px;
+    border-radius: 2px;
+    border-style: ridge;
+    color: rgb(11, 10, 10);
+    /* opacity: 1; */
+}
+.info{
+    margin-left: 10px;
+    float: right;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: rgba(234, 58, 58, 0.92);
+    color: aliceblue;
+}
+header{
+    height: 800px;
+    background-color: rgb(118, 171, 174);
+}
+.headblockelements{
+   display: inline-block;
+   height: 100px;
+   text-align: center;
+   margin: 50px;
+   padding: 50px;
+}
+#text3{
+    background-color: rgba(234, 58, 58, 0.92);
+    border-radius: 5px;
+}
+#text{
+    margin: 20px;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: rgba(234, 58, 58, 0.92);
+    border-radius: 5px;
+}
+#register{
+    margin: 20px;
+    padding: 10px;
+    color: rgb(118, 171, 174);
+    color: black;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+button{
+    margin: 10px;
+    color: black;
+    height: 30px;
+    padding: 5px;
+    border-radius: 2px;
+    border-style: outset;
+}
+button:hover{
+    background-color:red;
+}
+h1{
+    margin: 25px , 25px , 25px , 10px;
+    padding: 25px;
+    font-size: 30px;
+    display: inline-block;
+    color: rgba(20, 20, 20, 0.75);
+}
+main{
+    height: 498;
+}
+#text2{
+    text-align: center;
+}
+#ppp{
+    color: black;
+}
+#pop{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    color: black;
+}
+#pop1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+#ff1{
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.card0 {
+  background-color: #f8a1a1e6;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(248, 144, 144, 0.55);
+  text-align: center;
+  width: 40%;
+  margin-right: 30px;
+  background-image: linear-gradient(to right, #ef9f9f 0%, #f19898 50%, #ff5a5a 100%);
+  background-size: 200% 100%;
+  background-position: 0%;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  padding: 10px 20px;
+  color: #000000d5;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  float: right;
+}
+.card0:hover{
+  /* background-image: url(blood111.jpg);
+  background-size: cover; */
+  background-position: 100%;
+  transform: scale(1.02); 
+}
+  .card1 {
+    background-color: #f8a1a1e6;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(248, 144, 144, 0.55);
+    text-align: center;
+    width: 40%;
+    margin-left: 30px;
+    background-image: linear-gradient(to right, #ef9f9f 0%, #f19898 50%, #ff5a5a 100%);
+    background-size: 200% 100%;
+    background-position: 0%;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    padding: 10px 20px;
+    color: #000000d5;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: left;
+  }
+  .card1:hover{
+    /* background-image: url(blood111.jpg);
+    background-size: cover; */
+    background-position: 100%;
+    transform: scale(1.02); 
+  }
+  #text4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.55);
+  }
+  
+  #pop2 {
+    font-size: 16px;
+    line-height: 1.5;
+    color:rgba(0, 0, 0, 0.1);
+  }
+  h3{
+    color: black;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    color: rgb(118, 171, 174);
+  }
+  .gradient-button {
+    background-image: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
+    background-size: 200% 100%;
+    background-position: 0%;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    padding: 10px 20px;
+    color: #000000d5;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .gradient-button:hover {
+    background-position: 100%;
+    transform: scale(1.02); /* Slight zoom on hover */
+  }
+  #introofblood{
+    height: 300px;
+    
+  }
+  footer{
+    background-color: #9fefc3;
+  }
+  #introofblood{
+    margin-top: 50px;
+    word-spacing: 10px;
+    line-height: 30px;
+    display: inline-block;
+  }
+  #text5{
+    margin-top:50px ;
+  }
+  #text6{
+    display: flex;
+    position: absolute;
+    width: 20%;
+    margin-right: 20px;
+  }
+  #intropic{
+    background-color: #9fefc3;
+    height: 200px;
+    width: 25%;
+    float: right;
+  }
